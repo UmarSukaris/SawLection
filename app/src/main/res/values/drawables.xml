@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_kriteria" type="drawable">@android:drawable/ic_menu_upload</item>
+    <item name="ic_menu_nilai" type="drawable">@android:drawable/ic_menu_add</item>
+    <item name="ic_menu_pendaftar" type="drawable">@android:drawable/ic_menu_myplaces</item>
+    <item name="ic_menu_perangkingan" type="drawable">@android:drawable/ic_menu_sort_alphabetically</item>
+    <item name="ic_menu_hasil" type="drawable">@android:drawable/ic_menu_agenda</item>
+    <item name="ic_menu_grafik" type="drawable">@android:drawable/ic_menu_zoom</item>
+    <item name="ic_menu_tentang" type="drawable">@android:drawable/ic_menu_help</item>
+    <item name="ic_menu_keluar" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">SAWLection</string>
+    <string name="tutorial">Tutorial Penggunaan</string>
+    <string name="welcome_to">Selamat Datang</string>
+    <string name="tamu">Masuk Sebagai Tamu</string>
+    <string name="sawlection">SAWLection</string>
+    <string name="atau">atau</string>
+    <string name="seleksi_elektronik">Seleksi Elektronik</string>
+    <string name="daftar_baru">Daftar</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="htmlFormattedText"><![CDATA[<p align="left">Ini adalah aplikasi perangkingan dengan metode SAW (Simple Additive Weighting).<br>Tutorial penggunaan:</br></p>
+    <p align="left"><ol>
+    <li>Tambah Kriteria, tipe kriteria (benefit atau cost), dan     persentase kriteria dengan total keluruhan 100%</li>
+    <li>Tambah Nilai disertai keterangan (sangat baik, baik, dsb).</li>
+    <li>Tambah data pendaftar.</li>
+    <li>Pada menu perangkingan pilih pendaftar, kriteria, dan nilai.</li>
+    <li>Lihat hasil Perangkingan pada menu laporan.</li>
+    <li>Untuk melihat grafik perangkingan klik menu grafik perangkingan.</li></ol>
+    </p>]]></string>
+    <string name="title_activity_beranda">Beranda</string>
+    <string name="title_activity_login">Halaman Login</string>
+    <string name="title_activity_perangkingan">Perangkingan</string>
+    <string name="title_activity_user">Halaman Admin</string>
+    <string name="title_activity_hasil">Hasil Perangkingan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SawLection</string>
+    <string name="nav_header_subtitle">Aplikasi Seleksi dengan Metode SAW</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kriteria">Halaman Kriteria</string>
+    <string name="title_activity_tutorial">Tutorial Penggunaan</string>
+    <string name="pilih">pilih</string>
+
+    <array name="jk_pendaftar">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </array>
+
+    <array name="tipe_kriteria">
+        <item>Cost</item>
+        <item>Benefit</item>
+    </array>
+
+    <string name="dash">-</string>
+    <string name="title_activity_grafik">Grafik Perangkingan</string>
+    <string name="title_activity_laporan">Laporan Activity</string>
+    <string name="title_activity_akun">Halaman Profil</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="organisasi">Organisasi</string>
+    <string name="selanjutnya">Next</string>
+    <string name="alamat">Alamat</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="choose">Pilih Organisasi :</string>
+    <string name="aplikasi_seleksi">Aplikasi Seleksi</string>
+    <string name="title_activity_dashboard">Halaman Utama</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_seleksi">Halaman Seleksi</string>
+    <string name="menu_seleksi">Lihat Seleksi</string>
+    <string name="menu_exit">Keluar</string>
+    <string name="title_activty_admin">Halaman Seleksi</string>
+    <string name="title_activity_peserta">Halaman Seleksi</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_about">Tentang Aplikasi</string>
+    <string name="seleksi">Kelola Seleksi</string>
+    <string name="daftar_seleksi">Daftar Seleksi</string>
+    <string name="lihat_rekruitasi">Lihat Seleksi</string>
+    <string name="title_activity_penilaian">Penilaian Kriteria Pendaftar</string>
+    <string name="title_activity_lihat_seleksi_peserta">Lihat Seleksi Penerimaan</string>
+    <string name="title_activity_seleksi_panitia">Halaman Seleksi</string>
+    <string name="title_activity_panitia">PanitiaActivity</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="title_activity_seleksi_terdaftar">Seleksi yang Diikuti</string>
+    <string name="title_activity_halaman_panitia">Halaman Panitia Seleksi</string>
+    <string name="panitia">Lihat Seleksi</string>
+    <string name="title_activity_about">Tentang Aplikasi</string>
+    <string name="title_activity_dashboard_admin">Dashboard Admin</string>
+    <string name="title_activity_dashboard_panitia">Dashboard Panitia</string>
+
+</resources>

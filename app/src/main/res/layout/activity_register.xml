@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@mipmap/ic_launcher" />
+
+<TextView
+    android:id="@+id/TextView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:text="@string/aplikasi_seleksi"
+    android:textSize="18dip"
+    android:textStyle="bold" />
+
+<View
+    android:id="@+id/View1"
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:layout_gravity="center"
+    android:background="#448AFF" />
+
+<TextView
+    android:id="@+id/TextView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dip"
+    android:text="@string/daftar_baru"
+    android:textSize="16dip" />
+
+    <EditText
+        android:id="@+id/txt_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/nim"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/nama"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+<EditText
+    android:id="@+id/txt_username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:hint="@string/username"
+    android:inputType="textEmailAddress"
+    android:singleLine="true" />
+
+<EditText
+    android:id="@+id/txt_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:hint="@string/password"
+    android:password="true"
+    android:singleLine="true" />
+
+<EditText
+    android:id="@+id/txt_confirm_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:hint="@string/konfirmasi_password"
+    android:password="true"
+    android:singleLine="true"/>
+
+<Button
+    android:id="@+id/btn_register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="15dp"
+    android:background="#448AFF"
+    android:textColor="#fff"
+    android:text="@string/register"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="15dp"
+    android:background="#00555555"
+    android:text="@string/login"
+    android:textStyle="bold" />
+
+</LinearLayout>
+    </RelativeLayout>

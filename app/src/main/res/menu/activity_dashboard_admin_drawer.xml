@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item android:title="Admin Seleksi">
+            <menu>
+                <item
+                    android:id="@+id/nav_seleksi"
+                    android:icon="@drawable/ic_add_circle_black_24dp"
+                    android:title="@string/seleksi" />
+            </menu>
+        </item>
+        <item android:title="Profil">
+            <menu>
+                <item
+                    android:id="@+id/nav_akun"
+                    android:icon="@drawable/ic_account_circle_black_24dp"
+                    android:title="@string/menu_account" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_report_black_24dp"
+                    android:title="@string/menu_about" />
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="@string/menu_exit" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
+
